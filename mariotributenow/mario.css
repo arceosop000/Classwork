@@ -7,8 +7,13 @@ body{
     background-position: center center; 
     background-attachment: fixed; 
     font-size: 100%; 
+
 }
 
+h1{
+    text-align: center; 
+    text-shadow: 5px 5px 2px black;  
+}
 header{
     background-color: rgba(255, 57,57);
     background-image: url
@@ -21,15 +26,15 @@ section{
 }
 
 section header{
-    color: #00ce00 
+    color: #00ce00; 
 } 
 
 aside{
-    background-color: teal 
+    background-color: teal; 
 } 
 
 footer{
-    background-color: rgba(255, 57,57) 
+    background-color: rgba(255, 57,57); 
 } 
 
 nav{
@@ -39,11 +44,20 @@ nav{
     border: 10px solid transparent; 
     border-image: url("https://jlaw21.github.io/Resources/mario-pipe.png") 30% round; 
 }
+a{
+    text-decoration: none;  
+}
 
 h3{
     color: #00deff; 
     font-size: 1.4em; 
     font-style: oblique; 
+}
+p{
+    line-height: 1.7em; 
+    text-shadow: 2px 2px 3px black; 
+    text-transform: capitalize; 
+    letter-spacing: 0.2em;  
 }
 
 p, li{
